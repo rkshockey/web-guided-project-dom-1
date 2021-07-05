@@ -4,11 +4,13 @@
 //  Select the following single elements from the div.card
 
 // A- finding across the entire DOM
-const header = null
-const logoTitle = null
-const firstCard = null
+//const header = document.getElementById(`header`)
+//const header = document.getElementsByTagName(`header`)
+const header = document.querySelector(`header#header`)
+const logoTitle = document.querySelector(`#logoTitle`)
+const firstCard = document.querySelector(`.card:nth-of-type(1)`)
 // B- finding within one particular element
-const imageFirstCard = null
+const imageFirstCard = firstCard
 const titleFirstCard = null
 const subtitleFirstCard = null
 const textFirstCard = null
